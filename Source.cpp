@@ -11,7 +11,7 @@ double abs(double d){
 double DWD(double a1, double a2, double i, double j){
 	return abs(a1 - a2) / abs(i - j);
 }
-
+// O(n^2)
 double getMaxDWD(vector<double> values){
 	double max = -1;
 	for (int i = 0; i < values.size(); i++){
